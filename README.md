@@ -37,7 +37,7 @@ suppose we have a company called **the super tourism data provider** or short **
 Your extension file, based on the provided template, would then either look like this (in Turtle syntax):
 
 ```turtle
-@prefix dachkg: <http://http://dachkg.org/ontology/1.0/> .
+@prefix dachkg: <http://dachkg.org/ontology/1.0/> .
 @prefix schema: <http://schema.org/> .
 @prefix tstdp: <https://thesuperprovider.com/ontology/1.0/> .
 
@@ -63,7 +63,7 @@ or like that (in JSON-LD syntax):
 ```json
 {
   "@context": {
-    "dachkg": "http://http://dachkg.org/ontology/1.0/",
+    "dachkg": "http://dachkg.org/ontology/1.0/",
     "my-comp": "https://my-company.org/ontology/1.0/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
